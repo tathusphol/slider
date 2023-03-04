@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.img {
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+}
+.body {
+  background-color: rgb(209, 208, 207);
+}
+.card-container {
+  position: relative;
+}
+.arrow {
+  width: 50px;
+  position: absolute;
+}
+.arrow-container {
+  border-radius: 100%;
+  opacity: 50%;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+.y-center {
+  top: 50%;
+  margin-top: -40px;
+}
+.left {
+  left: 0px;
+}
+.right {
+  right: 0px;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}

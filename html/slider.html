@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/style.js"></script>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="card-container">
+            <img id="picture" class="img fade" src="../image/bg0.png" alt="">
+            <div class="arrow-container">
+                <img onclick="changepicture(-1)" id="arrowleft" class="arrow left y-center" src="../image/arrow.png"
+                    alt="">
+            </div>
+            <div class="arrow-container">
+                <img onclick="changepicture(1)" id="arrowright" class="arrow rotate right y-center"
+                    src="../image/arrow.png" alt="">
+            </div>
+            <div class="dot-container">
+                <div onclick="dotchange(0)" style="background-color: red;" id="dot0" class="dot"></div>
+                <div onclick="dotchange(1)" id="dot1" class="dot"></div>
+                <div onclick="dotchange(2)" id="dot2" class="dot"></div>
+                <div onclick="dotchange(3)" id="dot3" class="dot"></div>
+                <div onclick="dotchange(4)" id="dot4" class="dot"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
